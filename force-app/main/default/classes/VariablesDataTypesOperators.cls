@@ -71,8 +71,15 @@ public with sharing class VariablesDataTypesOperators {
      * @return The quotient of the division, or 0 if the denominator is zero.
      */
     public static Decimal division(Integer a, Integer b) {
-        return null; // Replace null with the variable you used to store the result
-    }
+        
+        if(b != 0 ){
+            return a / b;
+        }
+        else {
+            return 0;
+        }  
+          
+     }
 
     /**
      * Question 4
