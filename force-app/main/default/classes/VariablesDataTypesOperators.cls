@@ -173,8 +173,8 @@ public with sharing class VariablesDataTypesOperators {
      */
     public static Integer convertMinutesToMilliseconds(Integer minutes) {
         final Integer MILLISECONDS_PER_MINUTE = 60000; // Make this value a constant
-        Integer milliseconds;
-        return milliseconds = minutes * MILLISECONDS_PER_MINUTE; 
+        Integer milliseconds = minutes * MILLISECONDS_PER_MINUTE;
+        return milliseconds; 
     }    
 
     /**
