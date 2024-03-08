@@ -34,7 +34,7 @@ public class VariablesDataTypesOperatorsTest {
     static void testMultiplication() {
         Integer result = VariablesDataTypesOperators.multiplication(5, 5);
         Assert.areEqual(25, result, 'Incorrect multiplication result');
-
+        
         result = VariablesDataTypesOperators.multiplication(-5, 5);
         Assert.areEqual(-25, result, 'Incorrect negative multiplication result');
     }
